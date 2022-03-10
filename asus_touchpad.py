@@ -200,7 +200,7 @@ numlock: bool = False
 pos_x: int = 0
 pos_y: int = 0
 button_pressed: libevdev.const = None
-brightness: int = 0
+brightness: int = 2
 
 while True:
     # If touchpad sends tap events, convert x/y position to numlock key and send it #
